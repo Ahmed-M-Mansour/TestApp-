@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/course_item_background_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="6.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/course_text_view" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+</LinearLayout>

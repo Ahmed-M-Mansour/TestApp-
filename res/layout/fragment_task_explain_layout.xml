@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/contentOverlayBelowCustomDialogDark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" app:cardCornerRadius="9.0dip">
+        <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="9.0dip" android:fillViewport="true">
+            <TextView android:textSize="18.0sp" android:textStyle="bold|italic" android:textColor="@android:color/black" android:id="@id/explain_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
